@@ -32,33 +32,33 @@ function eggs () {
           // Изменение текста по id 'par' через innerHTML
           document.getElementById('textDescription').innerHTML = '(белок затвердел только по внешнему краю, остальная часть жидкая, как и желток)';
           // Добавления текста описания
-          document.getElementById('pic').innerHTML = '<img class="pic" src="img/egg02.png"/>';
+          document.getElementById('pic').innerHTML = '<img class="pic" src="egg02.png"/>';
           // Появление картинки через innerHTML
         }
         if (timeMinut >= 300) {
             document.getElementById('par').innerHTML = 'Яйцо в мешочек';
             document.getElementById('textDescription').innerHTML = '(белок почти сварился, но немного жидкий, как и желток)';
-            document.getElementById('pic').innerHTML = '<img class="pic" src="img/egg03.png"/>'; // Появление картинки через innerHTML
+            document.getElementById('pic').innerHTML = '<img class="pic" src="egg03.png"/>'; // Появление картинки через innerHTML
         }
         if (timeMinut >= 420) {
             document.getElementById('par').innerHTML = 'Яйцо сварено всмятку';
             document.getElementById('textDescription').innerHTML = '(белок сварен полностью, а желток жидкий)';
-            document.getElementById('pic').innerHTML = '<img class="pic" src="img/egg04.png"/>';
+            document.getElementById('pic').innerHTML = '<img class="pic" src="egg04.png"/>';
         }
         if (timeMinut >= 600) {
             document.getElementById('par').innerHTML = 'Яйцо вкрутую';
             document.getElementById('textDescription').innerHTML = '(белок сварился полностью, желток схватился, но остался в середине мягким)';
-            document.getElementById('pic').innerHTML = '<img class="pic" src="img/egg05.png"/>';
+            document.getElementById('pic').innerHTML = '<img class="pic" src="egg05.png"/>';
         }
         if (timeMinut >= 840) {
             document.getElementById('par').innerHTML = 'Яйцо вкрутую';
             document.getElementById('textDescription').innerHTML = '(белок и желток полностью сварены. Оптимальный вариант приготовления яиц для длительного хранения и для использования в приготовлении салатов.)';
-            document.getElementById('pic').innerHTML = '<img class="pic" src="img/egg06.png"/>';
+            document.getElementById('pic').innerHTML = '<img class="pic" src="egg06.png"/>';
         }
         if (timeMinut >= 1201) {
             document.getElementById('par').innerHTML = 'Переваренное яйцо';
             document.getElementById('textDescription').innerHTML = '(белок и желток полностью сварены, но начинают терять во вкусовых качествах, становятся постепенно резиновыми)';
-            document.getElementById('pic').innerHTML = '<img class="pic" src="img/egg07.png"/>';
+            document.getElementById('pic').innerHTML = '<img class="pic" src="egg07.png"/>';
         } else {
             let strTimer = `${Math.trunc(minutes)}:${seconds}`; // Вывод таймера по минутам; (`${Math.trunc(hour)}:${Math.trunc(minutes)}:${seconds}` - по часам)
             // Функция JavaScript "Math.trunc()"" возвращает целую часть числа путём удаления всех дробных знаков
