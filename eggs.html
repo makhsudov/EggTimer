@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/logo.png"/>
+    <meta name="description" content="Таймер для варки яиц">
+    <title>Таймер для варки яиц</title>
+  	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/pricing/">
+    <link rel="stylesheet" type="text/css" href="style/egg.css">
+  </head>
+  <body>
+
+
+  <div class="container">
+
+  <div class="text-center" id="pic">
+		<img class="pic" src="img/egg01.png" >
+	</div>
+
+	<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h3 id='par' class="text-muted">Отсчёт идет после того, как яйца закипели</h3>
+		<h6 id='textDescription' class="text-muted"></h3>
+	</div>
+	<div class="text-center display-4" id="time">
+    <button id ="btn" class="btn btn-light btn-lg" onclick="eggs ()">Запустить таймер</button>
+		<h1 id='timer' class="timer">-:-</h1>
+	</div>
+
+  </div>
+
+  <!-- подключ script с function eggs (), которая срабатывает при нажатии на button#btn  -->
+	<script src="scripts/script.js"></script>
+  </body>
+</html>
